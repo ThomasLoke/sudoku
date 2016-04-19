@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    123733,       3315]
-NotebookOptionsPosition[    123300,       3296]
-NotebookOutlinePosition[    123645,       3311]
-CellTagsIndexPosition[    123602,       3308]
+NotebookDataLength[    123873,       3319]
+NotebookOptionsPosition[    123440,       3300]
+NotebookOutlinePosition[    123785,       3315]
+CellTagsIndexPosition[    123742,       3312]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -629,7 +629,9 @@ Cell[BoxData[{
            "&"}], " ", "clear", " ", "eliminated", " ", "elements", " ", 
          RowBox[{"(", 
           RowBox[{
-           RowBox[{"&", " ", "if", " ", "single"}], ",", " ", 
+           RowBox[{
+           "&", " ", "if", " ", "single", " ", "or", " ", "hidden", " ", 
+            "single"}], ",", " ", 
            RowBox[{
            "move", " ", "element", " ", "from", " ", "sysp", " ", "to", " ", 
             "sys"}]}], ")"}]}]}], " ", "*)"}], "\[IndentingNewLine]", 
@@ -637,7 +639,9 @@ Cell[BoxData[{
        RowBox[{"Return", " ", 
         RowBox[{"format", ":", " ", 
          RowBox[{"{", 
-          RowBox[{"sys", ",", "sysp", ",", 
+          RowBox[{
+           RowBox[{"sys", "'"}], ",", 
+           RowBox[{"sysp", "'"}], ",", 
            RowBox[{"{", 
             RowBox[{
             "List", " ", "of", " ", "three", " ", "stage", " ", "sudoku", " ",
@@ -649,15 +653,15 @@ Cell[BoxData[{
      "]"}], ";"}], "\[IndentingNewLine]", ")"}]}]}], "Input",
  InitializationCell->True,
  CellChangeTimes->CompressedData["
-1:eJwdzVsogwEABeA/NG0r1zKSol9uS1GbtpG1ZC2bPSzl/mCYpEWihoWRIuQ2
-kksYwlp4cImHpRahkX9uSVObkloUKXtYZud/OH11OnWS1M2q+iCCIBIDgasf
-453yAo+km8HRwwrHQi+MCfvugylCyyhkj1VvQm9ZtgUeFxbuQLdq6ZDeJVit
-0MFX2WDnI+sUZjXHXECfwX4FW+b/bmEGwbqDKvuZE5LS3Xfo7Lj+gmk5PEIR
-sFWayoBVQ0wmZEc1hEH1zlMsvMptJGGIyM2FR/ySLDj9EM+H+nylGBoJlwz6
-xDcVMN4cqYbm4MoGqE3tb4c13pce+LytnYCK/IJZ+v+ydgXujfjXoej1fAvO
-TImN4VKPRMmuohXkmRzw7lL+QPc/1jphsUdioco1sFfj18F9cnmA7jdco/Dz
-LXkSRsibFqHpiaJtrzesQ3/mKi35G3kC5/YNNujjCc/hctcwBTmlg/fQTFWG
-igKeCMhouFZ0EAeV3HQZ7NNx2uA/DI7qoQ==
+1:eJwdzVsog3EABfAvRKxcy0ge+OSaokw2spYsGXtYym0eDEOSJZNbGBEht5Fc
+whDWwoMRD2vlEstkMyShUVKLIkVaZuf/cPrV6dQJk9SJKlwoigp3Bi69jbQI
+Mmy8dndmGywyz3bCQO/PLhjJ1gxBxnDJGvwpSNTA/czMTfgkmt8lu1CdDppZ
+ogPYcuN1BBPqAk+hXXFmhLKZv0sYS3lZoOjs+B7S/K1XeN98/gGjk5OoHKf1
+/Ch3KO739IQM/0pvKNm8DYLG1GoaunGe4uAeKy8BTlyHsGBbupALlZQ1C9q5
+F0UwRO0ngWrX4kpYG9Uth6U/Dx3wbqN2FOakZ0yRf0PZItwedKxAzvPJOpwc
+5yp9+DaekCEmpqSpzNBiEFyT/ktXzs618TSmQinslDqaoJZe6CH9qnUIvr9E
+jEFfQc0cVN2aiPIKxQp0xC8R6W8/PZzWKg6gPYl9AhdaB0yQmd93BdWmYg+O
+U30KHQCXs3eCoTAuJgt2NTEbYOObVmx1qpQ9EqtGVb3w8O+X+A+jmP4h
   "]],
 
 Cell[BoxData[{
@@ -3310,12 +3314,12 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 22353, 640, 1292, "Input",
+Cell[558, 20, 22493, 644, 1292, "Input",
  InitializationCell->True],
-Cell[22914, 662, 850, 18, 182, "Input"],
+Cell[23054, 666, 850, 18, 182, "Input"],
 Cell[CellGroupData[{
-Cell[23789, 684, 635, 11, 31, "Input"],
-Cell[24427, 697, 98857, 2596, 401, "Output"]
+Cell[23929, 688, 635, 11, 31, "Input"],
+Cell[24567, 701, 98857, 2596, 401, "Output"]
 }, Open  ]]
 }
 ]
